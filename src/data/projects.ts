@@ -19,6 +19,7 @@ export interface Project {
   liveUrl: string;
   caseStudyUrl: string;
   featured: boolean;
+  tags?: string[];
   priority: number;
 }
 
