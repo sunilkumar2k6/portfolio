@@ -4,7 +4,7 @@ import type { Project } from '../../data/projects';
 import { Section } from '../ui/Section';
 import { SectionHeading } from '../ui/SectionHeading';
 import { FadeIn } from '../animation/FadeIn';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
 import { ProjectDetailModal } from './ProjectDetailModal';
 
@@ -103,6 +103,21 @@ const ProjectCard = ({ project, index }: { project: Project, index: number }) =>
                 Source
                 <span className="group-hover/link:rotate-12 transition-transform">
                   <GithubIcon />
+                </span>
+              </a>
+            )}
+            
+            {project.liveUrl && (
+              <a 
+                href={project.liveUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group/link flex items-center gap-2 text-sm font-medium uppercase tracking-widest text-foreground hover:text-color-primary-500 transition-colors"
+                onClick={e => e.stopPropagation()}
+              >
+                Live
+                <span className="group-hover/link:translate-x-1 transition-transform">
+                  <ExternalLink size={16} />
                 </span>
               </a>
             )}
