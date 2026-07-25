@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://portfolio.local/sitemap.xml
+Sitemap: https://sunilkumar2k6.github.io/portfolio/sitemap.xml

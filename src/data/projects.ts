@@ -94,9 +94,10 @@ export const projects: Project[] = [
     image: new URL('../assets/projects/portfolio.png', import.meta.url).href,
     gallery: [],
     githubUrl: "https://github.com/sunilkumar/portfolio",
-    liveUrl: "https://example.com",
+    liveUrl: "https://sunilkumar2k6.github.io/portfolio/",
     caseStudyUrl: "",
     featured: true,
+    tags: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion"],
     priority: 4
   }
 ];

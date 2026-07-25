@@ -32,7 +32,7 @@ export const profile: Profile = {
   seo: {
     siteTitle: "Sunil Kumar | Portfolio",
     defaultDescription: "Computer Science and Engineering student focused on software development, modern web technologies, and practical project building.",
-    canonicalUrl: "https://example.com",
+    canonicalUrl: "https://sunilkumar2k6.github.io/portfolio/",
     openGraphImage: "/og-image.png",
     twitterHandle: "@sunil_kumar",
   }
