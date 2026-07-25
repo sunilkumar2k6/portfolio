@@ -171,12 +171,6 @@ While this is a personal portfolio, suggestions and improvements are welcome!
 
 ---
 
-## License
-
-License information has not yet been specified.
-
----
-
 ## Author & Contact
 
 **Sunil Kumar**  
